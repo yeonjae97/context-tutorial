@@ -5,7 +5,7 @@ import SelectColors from './components/SelectColors';
 
 const App = () => {
   return (
-    <ColorProvider value={{color : 'red'}}>
+    <ColorProvider>
     <div>
       <SelectColors />
       <ColorBox />
